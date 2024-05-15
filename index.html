@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymer 2 notes</title>
+</head>
+<body>
+    <h1>hola crayolaS</h1>
+
+    <!-- llamado de componente -->
+    <my-component></my-component>
+
+    
+    <script>
+        class MyComponent extends HTMLElement{
+            constructor(){
+                super();
+                // this sirve para acceder al componente
+                // agrega contenido al componente
+                this.attachShadow({mode:'open'}).innerHTML = '<p>Contenido de prueba</p>';
+            }
+
+        }
+        // se debe definir con minusculas
+        customElements.define('my-component', MyComponent);
+    </script>
+
+</body>
+</html>
