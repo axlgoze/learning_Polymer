@@ -1,0 +1,20 @@
+{
+  "name": "general_notes",
+  "homepage": "https://github.com/axlgoze/learning_Polymer",
+  "description": "project00",
+  "main": "",
+  "authors": [
+    "Axel Reyes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^3.5.1"
+  }
+}
